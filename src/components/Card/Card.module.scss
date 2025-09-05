@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+  }
+}
+
+.favorite {
+  position: absolute;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.card {
+  border:1px solid #F3F3F3;
+  padding: 20px;
+  width: 180px;
+  border-radius: 30px;
+
+}
